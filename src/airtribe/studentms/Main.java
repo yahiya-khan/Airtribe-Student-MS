@@ -205,8 +205,8 @@ public class Main {
         try {
             studentService.addStudent(new Student("S1001", "MR.khan", LocalDate.of(2003, 5, 17)));
             studentService.addStudent(new Student("S1002", "Tushar ", LocalDate.of(2002, 11, 12)));
-            courseService.addCourse(new Course("CS101", "Java Programming", 4));
-            courseService.addCourse(new Course("MATH201", "AI Engineering", 3));
+            courseService.addCourse(new Course("JP101", "Java Programming", 4));
+            courseService.addCourse(new Course("AI201", "AI Engineering", 3));
             enrollmentService.enrollStudent("S1001", "CS101");
             enrollmentService.recordGrade("S1001", "CS101", 85.0);
         } catch (Exception ignored) {}
